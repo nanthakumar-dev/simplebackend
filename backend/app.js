@@ -4,7 +4,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 
-// Routes
+// Route
 const mainRoutes = require("./routes/index");
 app.use("/", mainRoutes);
 
